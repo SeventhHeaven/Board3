@@ -21,7 +21,7 @@ java Board3
 >   private final int tate = 8;  
 >   private final int yoko = 8;  
 
-の部分を変えて再コンパイルです。  
+のtate, yokoを変えて再コンパイルです。  
 Board1, Board2もそうでしたが、  
 そのような変更の際に、定数の変更だけで  
 対応する工夫がプログラムには必要です。  
