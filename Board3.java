@@ -1,14 +1,14 @@
 // Board3.java
 
 import javax.swing.*;
-import java.lang.*;
+import java.awt.*;
 
 class  Board3 extends JFrame {
 
   private final int tate = 8;
   private final int yoko = 8;
-  private final int size = 50;
-  private final int padding = 25;
+  private final int size = 60;
+  private final int padding = 30;
 
   private JButton buttonArray[][] = new JButton[ tate ][ yoko ];
   private Container c;
@@ -36,4 +36,3 @@ class  Board3 extends JFrame {
   }
 
 }
-
