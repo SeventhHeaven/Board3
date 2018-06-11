@@ -1,7 +1,10 @@
 // Board3.java
 
 import javax.swing.*;
+import java.lang.*;
 import java.awt.*;
+import java.awt.event.*;
+import java.util.*;
 
 class  Board3 extends JFrame {
 
@@ -16,9 +19,11 @@ class  Board3 extends JFrame {
   Board3() {
     this.setDefaultCloseOperation( JFrame.EXIT_ON_CLOSE );
     this.setTitle( "Board3" );
-    this.setSize( ( size * yoko ) + ( padding * 2 ), ( size * tate ) + ( padding * 2 ) );
+//    this.setSize( ( size * yoko ) + ( padding * 2 ), ( size * tate ) + ( padding * 2 ) );
     this.setLocationRelativeTo( null );
     c = this.getContentPane();
+    c.setPreferredSize( new Dimension( ( size * yoko ) + ( padding * 2 ), ( size * tate ) + ( padding * 2 ) ) );
+    this.pack();
     c.setLayout( null );
 
     for ( int i = 0 ; i < tate ; i++ ) {
