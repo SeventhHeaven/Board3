@@ -1,8 +1,8 @@
 # Board3
-Getting Started Programming Series 1
+Getting Started Programming Series 3
 
-「プログラム事始め」シリーズ　その1です。
-C言語です。
+「プログラム事始め」シリーズ　その3です。
+Javaです。
 
 ボード上の自分（アスタリスク）を移動するゲーム（ふう）です。
 なるべく簡単なプログラムにすべくめっちゃカッコ悪いです。
