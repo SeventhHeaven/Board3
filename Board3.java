@@ -2,9 +2,6 @@
 
 import javax.swing.*;
 import java.lang.*;
-import java.awt.*;
-import java.awt.event.*;
-import java.util.*;
 
 class  Board3 extends JFrame {
 
